@@ -7,5 +7,8 @@ public class Main {
 
        Rectangle rectangle = new Rectangle(3,4);
        rectangle.printArea();
+
+       Student student = new Student("Karolina", 12345, 3.0);
+       student.printStudent();
     }
 }
